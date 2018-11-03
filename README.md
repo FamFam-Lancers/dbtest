@@ -6,7 +6,6 @@ application.properties を application.yml にリネーム
 * application-dev.yml : 開発用
 * application-prod.yml : 本番用
 
-
 * application.ymlにactive profileを指定する  
 spring:profiles:active: dev     
 
@@ -28,6 +27,8 @@ hikariCPがデフォルト
 
 ### thymeleaf-layout-dialectの利用
 共通テンプレート  
+
+### session scopeの利用
 
 ### Test (JUNIT5)
 
